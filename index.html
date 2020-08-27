@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Francisco's Portfolio</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/circle-cropped.png">
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="img/circle-cropped.png" class="logo" alt="logo" />
+            <!--<img src="./logo.svg" class="logo" alt="logo" />-->
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#projects" class="scroll-link">projects</a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>Hello!</h1>
+          <p>
+            Welcome to my portfolio webpage. Here I will upload projects
+            that I have done on my own and collaborated with others. This
+            webpage will be updated continuously.  
+          </p>
+          <a href="#projects" class="scroll-link btn btn-white">projects</a>
+        </div>
+      </div>
+    </header>
+    <!-- about me -->
+    <section id="about" class="section">
+      <div class="title"> 
+        <h2>about <span>me</span></h2>
+        <img id="about-image" src="img/Francisco-Saavedra_IMG_8347.JPG" alt="Francisco Saavedra">
+        <p>
+          My name is Francisco Saavedra. I am an experienced engineer
+          in the medical device/pharmaceutical industry. I obtained my
+          Bachelor's Degree in Electrical Engineering from the U of M
+          on December 2019. Currently, I am looking to advance my career
+          by learning the frontend and backend of coding. Feel free to
+          check my <a href="https://github.com/SleeperNova" 
+          target="blank">GitHub</a> profile for my most recent projects. 
+        </p> 
+      </div>
+    </section>
+    <!-- projects -->
+    <section id="projects" class="section">
+      <div class="title">
+        <h2>current <span>projects</span></h2>
+        <ul>
+          <li>Update coming soon...</li>
+        </ul>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="section">
+      <div class="title">
+        <h2>contact <span>me</span></h2>
+        <form action="https://formspree.io/saavedra.francisco@outlook.com" method="post">
+          <label>
+            Full Name (Required)
+            <input type="text" name="yourname" class="yourname" placeholder="Enter your full name"/>
+          </label>
+          <!--<label>
+            Phone (Required) //need to fix for phone
+            <input type="text" name="phone" class="phone" placeholder="Phone number"/>
+          </label>-->
+          <label>
+            E-mail (Required)
+            <input type="email" name="email" class="email" placeholder="Enter email"/>
+          </label>
+          <label>
+            Subject (Required)
+            <input type="text" name="subject" class="subject" placeholder="Subject"/>
+          </label>
+          <label>
+            Message (Required)
+            <textarea name="message" class="message" placeholder="Type your message"></textarea>
+          </label>
+          <div class="status"></div>
+          <button type="submit" class="submit">
+            Send
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; 
+        <a href="https://github.com/SleeperNova">GitHub</a> <!--open new tab or leave it?-->
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script> <!-- load jQuery -->
+    <script src="app.js"></script>
+  </body>
+</html>
