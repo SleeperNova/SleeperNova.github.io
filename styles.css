@@ -326,6 +326,22 @@ header {
     max-width: 40rem;
   }
 }
+
+.container2 h1 {
+  color: var(--clr-white);
+  text-transform: uppercase;
+}
+.container2 p {
+  color: var(--clr-primary-1);
+  max-width: 25rem;
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .container2 p {
+    max-width: 40rem;
+  }
+}
 /* sections and title */
 .title h2 {
   text-align: center;
@@ -344,8 +360,28 @@ header {
 .title span {
   color: var(--clr-secondary);
 }
+
+.title form {
+  margin-left: 450px;
+}
+
+input[type=text], input[type=email] {
+  width: 50%;
+  height: 30px;
+}
+
+textarea {
+  width: 50%;
+  height: 100px;
+}
+
+.submit {
+
+}
+
 #about,
 #projects,
+#resume,
 #contact {
   height: 80vh;
 }
@@ -355,7 +391,7 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-#projects {
+#projects, #resume {
   background: var(--clr-white);
 }
 label, input, textarea {
