@@ -1,0 +1,52 @@
+body {
+  background: red;
+}
+
+header {
+  width: 100%;
+}
+
+section {
+  margin: 80px;
+}
+
+header a :hover {
+  color: green;
+}
+h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+h3 {
+  font-size: 30px;
+  color: white;
+}
+
+h6 {
+  margin-left: 150px;
+}
+.block {
+  background: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  margin: 0;
+}
+
+.row {
+  padding: 10px;
+}
+
+#project1 {
+  background: rgb(154, 248, 30);
+  text-align: center;
+}
