@@ -9,7 +9,7 @@ start over and choose one option. Once the random password is generated. The\
 user has the option to Copy to Clipboard by simply pressing the button, and then\
 command + V on Mac or Ctrl + V on Windows to paste anywhere they want. 
 
-<img src="img/Password_Generator.png" width="375px" height="250px">
+<img src="image/Password_Generator.png" width="375px" height="250px">
 
 Here is the link to my portfolio webpage: \
 https://sleepernova.github.io/ 
