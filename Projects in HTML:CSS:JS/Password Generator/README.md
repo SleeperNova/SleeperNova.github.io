@@ -4,7 +4,7 @@ This page generates a random password based on the user's responses to the follo
 - Allowing uppercase letters
 - Allowing lowercase letters
 - Allowing numerals
-- Allowing special characters
+- Allowing special characters \
 Once the password has been generated, the user has the option to 'Copy to Clipboard' by pressing the button.
 Otherwise, they can just generate another password by pressing the 'Generate Password' button.
 
@@ -17,7 +17,7 @@ This application was built for people who have access to sensitive information a
 - Loops (Do/while, while, for)
 - Browser functions (prompt, confirm, alert)
 
-<img src="image/Password_Generator.png" width="425px" height="350px">
+<img src="image/Password_Generator.png" width="840px" height="500px">
 
 Here is the link to my portfolio webpage: \
 https://sleepernova.github.io/ 
