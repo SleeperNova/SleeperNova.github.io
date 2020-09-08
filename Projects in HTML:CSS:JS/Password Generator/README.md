@@ -4,7 +4,8 @@ This page generates a random password based on the user's responses to the follo
 - Allowing uppercase letters
 - Allowing lowercase letters
 - Allowing numerals
-- Allowing special characters \
+- Allowing special characters 
+
 Once the password has been generated, the user has the option to 'Copy to Clipboard' by pressing the button.
 Otherwise, they can just generate another password by pressing the 'Generate Password' button.
 
