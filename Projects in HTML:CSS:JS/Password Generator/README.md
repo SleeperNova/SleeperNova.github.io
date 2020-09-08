@@ -20,5 +20,5 @@ This application was built for people who have access to sensitive information a
 
 <img src="image/Password_Generator.png" width="840px" height="500px">
 
-Here is the link to my portfolio webpage: \
+Here is the link to my portfolio webpage:
 - https://sleepernova.github.io/ 
