@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font awesome 5-->
+    <script src="https://kit.fontawesome.com/34b9bc8a79.js" crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>A Quiz on JavaScript</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="highscores.html">View Highscores</a>
+      </nav>
+    </header>
+    <main>
+      <section id="start" class="quiz-section">
+        <h1>JavaScript Quiz</h1>
+        <p>Test your JavaScript knowledge with this quiz challenge! 
+        </p>
+        <p>
+          You have <strong>60 seconds</strong> to answer <strong>5 questions</strong>. 
+          Each time you get an answer wrong, <strong>10 seconds</strong> gets deducted from your time.
+        </p>
+        <p>
+          Your final score is the amount of time you have left. If the timer hits zero, that's an automatic game over.
+        </p>
+        <button id="start-button">Start Quiz</button>
+      </section>
+      <section id="quiz-questions" class="hidden quiz-section">
+        <p id="timer">Time: <span id="time-remaining">0</span></p>
+        <h1 id="question">Quiz Question</h1>
+        <ul id="choices"></ul>
+      </section>
+      <section id="end" class="quiz-section hidden">
+        <h1 id="end-title">Quiz completed</h1>
+        <p id="score-text">Your score is: <span id="score">0</span></p>
+        <form id="submit-score">
+          <label for="initials">Enter initials:</label>
+          <input type="text" id="initials">
+          <button type="submit">Submit</button>
+          <p id="error-message"></p>
+        </form>
+        <a href="index.html" class="back-button"><i class="fas fa-angle-left" aria-hidden="true"></i>Back to quiz</a>
+      </section>
+      <div>
+        <p id="correct" class="choice-status hidden"><i class="fas fa-check-circle" aria-hidden="true"></i>Correct!</p>
+        <p id="wrong" class="choice-status hidden"><i class="fas fa-times-circle" aria-hidden="true"></i>Wrong!</p>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
