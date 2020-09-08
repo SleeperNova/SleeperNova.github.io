@@ -31,7 +31,7 @@ This quiz is for people learning JavaScript who want to see how their knowledge 
 ### Additional Resources
 - [Font Awesome 5.14](https://fontawesome.com/)
 
-<img src="image/init.png" alt="JS Quiz" width="800px" height="550px">
+<img src="image/init.png" alt="JS Quiz" width="700px" height="550px">
 
 Here is the link to my portfolio webpage: \
 https://sleepernova.github.io/ 
