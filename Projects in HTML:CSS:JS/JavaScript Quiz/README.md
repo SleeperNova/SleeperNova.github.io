@@ -33,5 +33,5 @@ This quiz is for people learning JavaScript who want to see how their knowledge 
 
 <img src="image/init.png" alt="JS Quiz" width="1310px" height="570px">
 
-Here is the link to my portfolio webpage: \
-https://sleepernova.github.io/ 
+Here is the link to my portfolio webpage:
+- https://sleepernova.github.io/ 
