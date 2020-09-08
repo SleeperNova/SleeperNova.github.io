@@ -1,16 +1,23 @@
 # Password Generator
-First click on the Generate Password button. This will ask the user to enter\
-a number between 8-128, if not it will keep asking the same alert until a\
-number within that range is entered. Then it will ask the user if they want\
-upper case letters, lower case letters, numbers, or symbols respectively\
-in their random password. The user must choose at least one of the options\
-so their password can be generated. Otherwise the program will ask them to\
-start over and choose one option. Once the random password is generated. The\
-user has the option to Copy to Clipboard by simply pressing the button, and then\
-command + V on Mac or Ctrl + V on Windows to paste anywhere they want. 
+This page generates a random password based on the user's responses to the following criteria: 
+- Length of the password (min-length: 8, max-length: 128)
+- Allowing uppercase letters
+- Allowing lowercase letters
+- Allowing numerals
+- Allowing special characters
+Once the password has been generated, the user has the option to 'Copy to Clipboard' by pressing the button.
+Otherwise, they can just generate another password by pressing the 'Generate Password' button.
+
+## Purpose
+This application was built for people who have access to sensitive information and need a strong password. 
+
+## Main JavaScript Concepts Used 
+- Objects
+- Arrays
+- Loops (Do/while, while, for)
+- Browser functions (prompt, confirm, alert)
 
 <img src="image/Password_Generator.png" width="425px" height="350px">
 
 Here is the link to my portfolio webpage: \
 https://sleepernova.github.io/ 
-
