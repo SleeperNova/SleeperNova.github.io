@@ -21,7 +21,7 @@ This application was built for people who have access to sensitive information a
 <img src="image/Password_Generator.png" width="840px" height="500px">
 
 Here is the link to the Password Generator:
-https://sleepernova.github.io/Projects%20in%20HTML:CSS:JS/Password%20Generator/index.html
+- https://sleepernova.github.io/Projects%20in%20HTML:CSS:JS/Password%20Generator/index.html
 
 Here is the link to my portfolio webpage:
 - https://sleepernova.github.io/ 
