@@ -27,16 +27,16 @@ This is a simple Connect 4 game in C to demonstrate the basic concepts of C lang
 ### Beginning of the game:
 <img src="images/init.png" alt="Initial">
 
-### Vertical Win:
+### Vertical Win (|):
 <img src="images/v_win.png" alt="Vertical Win">
 
-### Horizontal Win:
+### Horizontal Win (-):
 <img src="images/h_win.png" alt="Horizontal Win">
 
-### Diagonal Left Win:
+### Diagonal Left Win (\):
 <img src="images/dl_win.png" alt="Diagonal Left Win">
 
-### Diagonal Right Win:
+### Diagonal Right Win (/):
 <img src="images/dr_win.png" alt="Diagonal Right Win">
 
 Feel free to download the code and run in an IDE that supports C.
