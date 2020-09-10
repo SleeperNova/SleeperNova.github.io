@@ -33,5 +33,8 @@ This quiz is for people learning JavaScript who want to see how their knowledge 
 
 <img src="image/init.png" alt="JS Quiz" width="1310px" height="570px">
 
+Heres is the link to the JavaScritp Quiz:
+- https://sleepernova.github.io/Projects%20in%20HTML:CSS:JS/JavaScript%20Quiz/index.html
+
 Here is the link to my portfolio webpage:
 - https://sleepernova.github.io/ 
