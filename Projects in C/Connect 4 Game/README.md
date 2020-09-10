@@ -21,7 +21,8 @@ This is a simple Connect 4 game in C to demonstrate the basic concepts of C lang
 - If statement
 - Funtion calls
 
-<img src="images/init.png" alt="JS Quiz" width="1310px" height="570px">
+<img src="images/begin.png" alt="Beginning">
+<img src="images/init.png" alt="Initial">
 
 Feel free to download the code and run in an IDE that supports C.
 This game can be played in the terminal once it has been complied.
