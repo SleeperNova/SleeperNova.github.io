@@ -1,148 +1,411 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Francisco's Portfolio</title>
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <!-- favicon -->
-    <link rel="shortcut icon" type="image/png" href="img/circle-cropped.png">
-    <!-- styles -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header id="home">
-      <!-- navbar -->
-      <nav id="nav">
-        <div class="nav-center">
-          <!-- nav header -->
-          <div class="nav-header">
-            <img src="img/circle-cropped.png" class="logo" alt="logo" />
-            <!--<img src="./logo.svg" class="logo" alt="logo" />-->
-            <button class="nav-toggle">
-              <i class="fas fa-bars"></i>
-            </button>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Francisco</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <!-- Custom icons from Devicon -->
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/circle-cropped.png">
+</head>
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Francisco Saavedra</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/fracisco_cropped.png" alt="Francisco">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger"
+            href="https://drive.google.com/file/d/1LL2-OULi6HuAmexgFZpqRh2UvYWrMZbb/view?usp=sharing" target="_blank">Resume</a> <!--add google resume link-->
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Francisco <!--Javier :MI-->
+          <span class="text-primary"> Saavedra <!--Saavedra :LI--></span>
+        </h1>
+        <div class="subheading mb-5" id="greyColor">Bloomington, MN ·
+          <a href="mailto:name@email.com" class="text-primary">saavedra.francisco@outlook.com</a>
+        </div>
+        <p class="lead mb-5">
+          Welcome to my portfolio webpage. Here I will upload projects
+          that I have done and collaborated with. This webpage will be 
+          updated continuously. Feel free to check my GitHub profile 
+          for all my repositories.
+        </p>
+        <div class="social-icons">
+          <a href="https://github.com/SleeperNova" class="socialIconsHover" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/francisco-saavedra-104525ba/" class="socialIconsHover" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Manufacturing Engineering Technician</h3>
+            <div class="subheading mb-3"><span class = "location">Lifecore Biomedical</span> - Chaska, MN</div>
+              <!-- <ul>
+                <li> </li> might add job responsibilites
+                <li> </li>
+                <li> </li>
+              </ul> -->
           </div>
-          <!-- links -->
-          <div class="links-container">
-            <ul class="links">
-              <li>
-                <a href="#home" class="scroll-link">home</a>
-              </li>
-              <li>
-                <a href="#about" class="scroll-link">about</a>
-              </li>
-              <li>
-                <a href="projects.html" class="nav-link">projects</a>
-              </li>
-              <li>
-                <a href="#resume" class="scroll-link">resume</a>
-              </li>
-              <li>
-                <a href="#contact" class="scroll-link">contact</a>
-              </li>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">April 2020 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Electrical Engineer Intern</h3>
+            <div class="subheading mb-3"><span class = "location">NV5|Sebesta </span> - St. Paul, MN</div>
+              <!-- <ul>
+                <li> </li> might add job responsibilites
+                <li> </li>
+                <li> </li>
+              </ul> -->
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Feburary 2019 - March 2020</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Distribution Operating Engineering Intern</h3>
+            <div class="subheading mb-3"><span class = "location">Xcel Energy</span> - Minneapolis, MN</div>
+              <!-- <ul>
+                <li> </li> might add job responsibilites
+                <li> </li>
+                <li> </li>
+              </ul> -->
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2017 - Feburary 2019</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">University of Minnesota</h3>
+            <div class="subheading mb-3">Bachelor of Electrical Engineering</div>
+            <div>Electrical Engineering</div>
+            <div>Leadership Minor</div>
+            <p><strong>Relevant Coursework:</strong></p>
+            <table style="width:100%">
+              <tr>
+                <ul>
+                  <li>Introduction to Microcontrollers</li>
+                  <li>Digital Design with Programmable Logic</li>
+                  <li>Linear Control Systems</li>
+                  <li>Semiconductor Devices</li>
+                  <li>Power Electronics</li>
+                  <li>Electric Drives</li>
+                <!--</ul>
+              </tr>
+              <tr>
+                <ul>-->
+                  <br>
+                  <li>Personal Leadership in the University</li>
+                  <li>Leadership, You, and Your Community</li>
+                  <li>Leadership for Global Citizenship</li>
+                </ul>
+              </tr>
+            </table>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2016 - December 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Normandale Community College</h3>
+            <div class="subheading mb-3">Associate of Science</div>
+            <div>General Engineering</div>
+            <p><strong>Relevant Coursework:</strong></p>
+            <table style="width:100%">
+              <tr>
+                <ul>
+                  <li>Introduction to Engineering Design</li>
+                  <li>Introduction to Computing and Problem Solving</li>
+                  <li>Programming in C</li>
+                <!--</ul>
+              </tr>
+              <tr>
+                <ul>-->
+                  <br>
+                  <li>Calculus 1, 2, 3, and 4</li>
+                  <li>Physics 1 and 2</li>
+                  <li>Chemistry 1 and 2</li>
+                </ul>
+              </tr>
+            </table>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2014 - May 2016</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Online Courses</h3>
+            <div class="subheading mb-3">Certificates</div>
+            <p>University of Minnesota: Coding Boot Camp</p>
+            <ul>
+              <li>July 2020 - December 2020 (Expected)</li>
+            </ul>
+            <br>
+            <br>
+            <p>Aveta Business Institute: Lean Six Sigma White Belt</p>
+            <ul>
+              <li>March 2020</li>
             </ul>
           </div>
         </div>
-      </nav>
-      <!-- banner -->
-      <div class="banner">
-        <div class="container">
-          <h1>Hello!</h1>
-          <p>
-            Welcome to my portfolio webpage. Here I will upload projects
-            that I have done on my own and collaborated with others. This
-            webpage will be updated continuously.  
-          </p>
-          <a href="projects.html" class="nav-link btn btn-white">projects</a>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Random Password Generator</h3>
+            <a href="https://sleepernova.github.io/Projects%20in%20HTML:CSS:JS/Password%20Generator/index.html" target="_blank">
+              <img src="img/Password_Generator.png"> 
+            </a>
+            <div class="subheading mb-3"> <a class="projectLink" 
+              href="https://github.com/SleeperNova/SleeperNova.github.io/tree/master/Projects%20in%20HTML:CSS:JS/Password%20Generator"
+              target="_blank">Click Here For Github Repo</a>
+            </div>
+            <p>Passwords are a real security threat. Over 80% of hacking-related breaches are due to weak or stolen
+              passwords. If you want to safeguard your personal info and assets, creating secure passwords is a big 
+              first step. That’s where this Random Password Generator comes in. Impossible to crack passwords are 
+              complex with multiple types of characters (letters, numbers, and symbols). And the best part, it’s 
+              FREE. Give it a try! </p>
+            <!-- <p>edit...</p> -->
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">JavaScript Quiz</h3>
+            <a href="https://sleepernova.github.io/Projects%20in%20HTML:CSS:JS/JavaScript%20Quiz/index.html" target="_blank"> 
+              <img src="img/JavaScript_Quiz.png"alt="JavaScript_Quiz">
+            </a>
+            <div class="subheading mb-3"> <a class="projectLink"
+              href="https://github.com/SleeperNova/SleeperNova.github.io/tree/master/Projects%20in%20HTML:CSS:JS/JavaScript%20Quiz" 
+              target="_blank">Click Here For Github Repo</a>
+            </div>
+            <p>Ever wondered if you truly are a JavaScript Master? Well, now's your chance to test your knowledge
+              with this JavaScript Quiz. Give it a go and see if you can be in the top highscore spot. </p>
+            <!-- <p>edit...</p> -->
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Connect 4</h3>
+            <img src="img/Connect_4.png">
+            <div class="subheading mb-3"> <a class="projectLink" 
+              href="https://github.com/SleeperNova/SleeperNova.github.io/tree/master/Projects%20in%20C/Connect%204%20Game"
+              target="_blank">Click Here For Github Repo</a>
+            </div>
+            <p>Connect 4 is a two player connection computer game, in which the players take turns to see who can 
+              connect 4 first. The numbers (1 or 2) fall straight down, occupying the lowest available space 
+              within the columns. The player can win by connecting 4 of their numbers in a horizontal, vertical, 
+              or diagonal line.</p>
+            <!-- <p>edit...</p> -->
+          </div>
         </div>
       </div>
-    </header>
-    <!-- about me -->
-    <section id="about" class="section">
-      <div class="title"> 
-        <h2>about <span>me</span></h2>
-      </div>
-      <div class="container2">
-        <img id="about-image" src="img/Francisco-Saavedra_IMG_8347.JPG" alt="Francisco Saavedra">
-        <p>
-          My name is Francisco Saavedra. I am an experienced engineer
-          in the medical device/pharmaceutical industry. I obtained my
-          Bachelor's Degree in Electrical Engineering from the U of M
-          on December 2019. Currently, I am looking to advance my career
-          by learning the frontend and backend of coding. Feel free to
-          check my <a href="https://github.com/SleeperNova" 
-          target="blank">GitHub</a> profile for my most recent projects. 
-        </p> 
-      </div>
     </section>
-    <!-- projects -->
-    <!-- <section id="projects" class="section">
-      <div class="title">
-        <h2>current <span>projects</span></h2>
-        <ul>
-          <li>Update coming soon...</li>
+
+    <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Software &amp; Equipment</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Microsoft Office</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            AutoCAD</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Revit</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            CATSWeb</li>
+        <br>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Function Generator</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Oscilloscope</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Aseptic Optima Machines</li>
+          <li>
+            Mac &amp; Windows OS<i class="fa-li fa fa-check"></i>
+          </li>
+        </ul>
+        <br>
+        <br>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="devicon-c-plain skillsIconsHover"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-html5 skillsIconsHover"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt skillsIconsHover"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square skillsIconsHover"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-bootstrap skillsIconsHover"></i>
+          </li>
+          <!-- <li class="list-inline-item">
+            <i class="fab fa-node skillsIconsHover"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-cplusplus-plain skillsIconsHover"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-mysql-plain-wordmark skillsIconsHover"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-mongodb-plain skillsIconsHover"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="devicon-csharp-plain skillsIconsHover"></i>
+          </li> -->
+        </ul>
+
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Using Git Repos Within A Team</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Agile Development</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Functional Teamwork</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Project Management</li>
         </ul>
       </div>
-    </section> -->
-    <!-- Resume -->
-    <section id="resume" class="section">
-      <div class="title">
-        <h2>Current <span>Resume</span></h2>
-        <ul>
-          <li>Resume will be attached here...</li>
-        </ul>
+    </section>
+
+    <hr class="m-0">
+
+    <!-- <hr class="m-0"> -->
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <p>One the engineering side, I love to fix things, solve problems and find out why things work. 
+          Every day when I walk into work I know there will be a new problem to solve or a different machine 
+          to fix. The satisfaction I get by using my engineering skills to solve problems is why I get out 
+          of bed in the morning. Knowing that what I do makes a difference within the company and to the end-user 
+          is so fulfilling. My ambition is to continue to gain knowledge so I can take on bigger and 
+          more challenging problems. I want to continue to use my skills to make a difference by continuously 
+          improving the way we engineer things.</p>
+
+        <p>On the software side, I really enjoy building web applications, I do fullstack work on side projects. 
+          I enjoy building tools that automate a tedious task, that and/or help users improve their life and
+          be more productive.<p>
+      
+        <p>Outside of engineering &amp; software, you might find me reading a book, playing some tennis, or deeplyinvested in a 
+          videogame.</p>
       </div>
     </section>
-    <!-- contact -->
-    <section id="contact" class="section">
-      <div class="title">
-        <h2>contact <span>me</span></h2>
-        <form action="https://formspree.io/saavedra.francisco@outlook.com" method="post">
-          <label>
-            Full Name (Required)
-            <input type="text" name="yourname" class="yourname" placeholder="Enter your full name"/>
-          </label>
-          <!--<label>
-            Phone (Required) //need to fix for phone
-            <input type="text" name="phone" class="phone" placeholder="Phone number"/>
-          </label>-->
-          <label>
-            E-mail (Required)
-            <input type="email" name="email" class="email" placeholder="Enter email"/>
-          </label>
-          <label>
-            Subject (Required)
-            <input type="text" name="subject" class="subject" placeholder="Subject"/>
-          </label>
-          <label>
-            Message (Required)
-            <textarea name="message" class="message" placeholder="Type your message"></textarea>
-          </label>
-          <div class="status"></div>
-          <button type="submit" class="submit">
-            Send
-          </button>
-        </form>
-      </div>
-    </section>
-    <!-- footer -->
-    <footer class="section">
-      <p>
-        copyright &copy; 
-        <a href="https://github.com/SleeperNova">GitHub</a> <!--open new tab or leave it?-->
-        <span id="date"></span>. all rights reserved
-      </p>
-    </footer>
-    <a class="scroll-link top-link" href="#home">
-      <i class="fas fa-arrow-up"></i>
-    </a>
-    <!-- javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script> <!-- load jQuery -->
-    <script src="app.js"></script>
-  </body>
+
+    <hr class="m-0">
+  </div>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+</body>
 </html>
