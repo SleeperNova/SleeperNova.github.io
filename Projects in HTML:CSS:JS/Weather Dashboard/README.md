@@ -11,7 +11,7 @@ When a valid city name is entered, the name is saved as part of a search history
 ## Purpose
 This dashboard is meant for travelers who want to plan ahead for the upcoming weather in different cities.
 
-<img src="image/Weather_Dashboard" width="1200px" height="575px">
+<img src="image/Weather_Dashboard.png">
 
 Here is the link to the Password Generator:
 - https://sleepernova.github.io/Projects%20in%20HTML:CSS:JS/Weather%20Dashboard/index.html
