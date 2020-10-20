@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./assets/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <title>Eat Local</title>
+  </head>
+  <body>
+    <!--Start of hero-->
+    <section class="hero is-primary is-medium">
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a href="./index.html" class="navbar-item">
+                <img src="./assets/images/eatLocal_icon.png" alt="Logo">
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="block title">Find restaurants near you</h1>
+          <form class="field has-addons has-addons-centered" id="searchForm">
+            <div class="control" style="width: 500px;">
+              <input type="text" class="input" placeholder="Search for a restaurant" id="searchTerm">
+            </div>
+            <div class="control">
+              <button type="submit" class="button is-info">Search</button>
+            </div>
+          </form>
+      </div>
+    </section>
+    <!--End of hero-->
+    <section class="section">
+      <div class="tile is-ancestor is-vertical" id="categoryButtons">
+        <div class="tile">
+          <div class="tile is-parent">
+            <div class="tile level is-child has-text-centered">
+              <a class="level-item box category has-text-weight-bold " style="height: 150px; 
+              " id="breakfast">
+              <img src="https://upl.stack.com/wp-content/uploads/2015/03/Small-Breakfast-STACK.jpg" alt="">
+                Breakfast
+              </a>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <div class="tile level is-child has-text-centered">
+              <a class="level-item box category has-text-weight-bold" style="height: 150px; 
+              " id="coffee">
+              <img src="https://i.dlpng.com/static/png/5432517-coffee-with-heart-png-clip-art-image-cup-of-latte-png-free-latte-png-820_653_preview.png" alt="">
+                Coffee Shop
+              </a>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <div class="tile level is-child has-text-centered">
+              <a class="level-item box category has-text-weight-bold" style="height: 150px; 
+              " id="brunch">
+              <img src="https://imagevars.gulfnews.com/2019/12/09/Roberto-s_16eeaace58d_original-ratio.jpg" alt="">
+                Brunch
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tile">
+          <div class="tile is-parent">
+            <div class="tile level is-child has-text-centered">
+              <a class="level-item box category has-text-weight-bold" style="height: 150px; 
+              " id="western-food">
+              <img src="https://image.shutterstock.com/image-photo/top-view-bbq-pork-ribs-260nw-1448812934.jpg" alt="">
+                Western Food
+              </a>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <div class="tile level is-child has-text-centered">
+              <a class="level-item box category has-text-weight-bold" style="height: 150px; 
+              "id="asian-food">
+              <img src="https://media-cdn.tripadvisor.com/media/photo-s/06/47/12/02/great-food.jpg" alt="">
+                Asian Food
+              </a>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <div class="tile level is-child has-text-centered">
+              <a class="level-item box category has-text-weight-bold" style="height: 150px; 
+              "id="bar-grill">
+              <img src="https://d1uz88p17r663j.cloudfront.net/original/3f45a55019de051f1f6951a13534baec_Buffalo_Wings_main.jpg" alt="">
+                BBQ & Grill
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tile">
+          <div class="tile is-parent">
+            <div class="tile level is-child has-text-centered">
+              <a class="level-item box category has-text-weight-bold" style="height: 150px; 
+              " id="mexican-food">
+              <img src="https://joseole.com/wp-content/uploads/2018/07/JOLE_WEB_Mex-food.png" alt="">
+                Mexican Food
+              </a>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <div class="tile level is-child has-text-centered">
+              <a class="level-item box category has-text-weight-bold" style="height: 150px; 
+              "id="chinese-food">
+              <img src="https://www.englishclub.com/images/vocabulary/food/chinese/chinese-food.jpg" alt="">
+                Chinese Food
+              </a>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <div class="tile level is-child has-text-centered">
+              <a class="level-item box category has-text-weight-bold" style="height: 150px; 
+              "id="fast-food">
+              <img src="https://assets3.thrillist.com/v1/image/2810015/1584x1056/crop;jpeg_quality=60;progressive.jpg" alt="">
+                Fast Food
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>Powered by <a href="https://developers.zomato.com/api" target="_blank">Zomato</a> and <a href="https://www.yelp.ca/developers/documentation/v3/business_search" target="_blank">Yelp</a></p>
+        <p>Built for educational purposes</p>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./assets/scripts/search.js"></script>
+  </body>
+</html>

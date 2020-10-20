@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/34b9bc8a79.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <title>Results</title>
+  </head>
+  <body>
+    <!--Start-->
+    <section class="hero is-primary">
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a href="./index.html" class="navbar-item">
+                <img src="./assets/images/eatLocal_icon.png" alt="Logo">
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="block title">Find restaurants near you</h1>
+          <form class="field has-addons has-addons-centered" id="searchForm">
+            <div class="control" style="width: 500px;">
+              <input type="text" class="input" placeholder="Search for a restaurant" id="searchTerm">
+            </div>
+            <div class="control" class="content-area">
+              <button class="button is-link" type="submit" id="mybutton">Search</button>
+            </div>
+            
+          </form>
+      </div>
+    </section>
+    <!--End-->
+    <section class="section" id="cards">
+    </section>
+    <div class="modal" id="formodal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <h1>Please enter restaurant name</h1>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>Powered by <a href="https://developers.zomato.com/api" target="_blank">Zomato</a> and <a href="https://www.yelp.ca/developers/documentation/v3/business_search" target="_blank">Yelp</a></p>
+        <p>Built for educational purposes</p>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./assets/scripts/search.js"></script>
+    <script src="./assets/scripts/display.js"></script>
+  </body>
+</html>
