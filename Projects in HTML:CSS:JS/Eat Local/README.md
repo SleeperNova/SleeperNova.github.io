@@ -14,7 +14,7 @@ An app that shows restaurants near you! Search by keyword of what you're craving
 - [Maps URLS](https://developers.google.com/maps/documentation/urls/get-started)
 - [Bulma](https://bulma.io/documentation/)
 
-Heres is the link to the JavaScritp Quiz:
+Heres is the link to the Eat Local app:
 - https://sleepernova.github.io/Projects%20in%20HTML:CSS:JS/Eat%20Local/index.html
 
 Here is the link to my portfolio webpage:
