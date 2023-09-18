@@ -13,7 +13,7 @@ This dashboard is meant for travelers who want to plan ahead for the upcoming we
 
 <img src="image/Weather_Dashboard.png">
 
-Here is the link to the Password Generator:
+Here is the link to the Weather Dashboard:
 - https://sleepernova.github.io/Projects%20in%20HTML:CSS:JS/Weather%20Dashboard/index.html
 
 Here is the link to my portfolio webpage:
