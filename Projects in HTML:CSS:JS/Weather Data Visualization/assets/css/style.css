@@ -1,0 +1,128 @@
+/* Navbar */
+.navbar{
+  max-height: 55px; 
+}
+.navigation .navbar-brand{
+  color: white; 
+  margin-left: 50px; 
+  padding: inherit; 
+  font-weight: bold; 
+  background-color: #0ca9a1;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+  background-color: white; 
+  font-size: 17px; 
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover{
+  background-color:#E7E7E7; 
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+  background-color: #13b5ad;
+}
+
+.nav-link:hover{
+  background-color: #0eb2aa;
+  
+}
+
+/* Body*/
+body {
+  background-color: #f3eeee;
+}
+
+/* Title Class*/
+.title {
+  color: #0aaea6;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  padding-top: 27px;
+}
+
+
+/* Paragraph */
+p {
+  color: black;
+  font-size: 16;
+}
+
+/* Box Class */
+.box {
+  margin-top: 61px; 
+  margin-bottom: 65px; 
+  padding: 10px 20px 15px; 
+  color:black;
+  background-color: white; 
+
+}
+
+/* Images */
+img{
+  width:100%;
+  height:100%;
+  
+}
+
+.active, .panel:hover{
+  border-color:#0daaa2;
+  border-style: solid;
+}
+
+.vizualization{
+  width:50%;
+  height:50%;
+}
+/* Footer */
+footer {
+background-color: #636262;
+border-top-style: solid;
+border-top-width: 6px;
+border-top-color: #0cb0a7;
+color: white;
+min-height: 10px;
+font-family: cursive;
+font-size: 12px;
+text-align: center;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-top: 1px;
+
+}
+
+/* Table*/
+.table {
+font-size: 15px;
+border-top-color: white;
+}
+
+/* Media Queries */
+@media(max-width: 992px){
+  .navbar-expand-lg{
+  background-color: #0b9a93;
+  }
+  .navbar{
+    max-height: none; 
+    padding: inherit;
+  }
+  .navbar div{
+    margin: inherit; 
+    background-color: white;  
+  }
+  .navbar-brand{
+    padding: 15px; 
+  }
+
+  button{
+      margin-right: 32px; 
+    }
+  button:focus {
+
+      outline: 1px dotted;
+      outline: 5px auto -webkit-focusring-color;               
+    }
+  }
